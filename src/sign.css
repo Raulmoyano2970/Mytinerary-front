@@ -1,0 +1,181 @@
+* {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: contrast(100%);
+    background-image: url(../src/img/Background.jpg);
+    min-height: 78vh;
+  }
+  
+  .form-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+    justify-content: center;
+    width: 30%;
+    height: 437px;
+    background-color: #d7e3ff55;
+    box-shadow: 0px 3px 6px rgba(3, 3, 3, 0.771);
+    border-radius: 20px;
+  }
+  
+  .form-body > * {
+    padding: 5px;
+  }
+  
+  .form__label {
+    padding: 3px;
+    font-size: 1.3rem;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 2px rgb(20, 10, 10);
+  }
+  
+  .form__input {
+    padding: 3px;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 3px 3px 5px rgba(3, 3, 3, 0.654);
+    text-align: center;
+    width: 15rem;
+  }
+  
+  .registerZone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    color: #000000;
+    font-size: xx-large;
+  }
+  
+  .submit {
+    display: flex;
+    flex-direction: column;
+  }
+  .submit2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    border: 2px solid #ff841a;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 2rem;
+    background-color: #ff841a;
+    font-weight: bold;
+  }
+  .submit2:hover {
+    border: 2px solid #fffefe;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+  .submit1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    border: 2px solid #eaf2f4;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 2rem;
+    background-color: #eaf2f4;
+    font-weight: bold;
+  }
+  .submit1:hover {
+    border: 2px solid #1f6e6b;
+    color: #eaf2f4;
+    border: 2px solid #eaf2f4;
+    background-color: #1f6e6b;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 900px) {
+    .form-body {
+      gap: 0.4rem;
+      justify-content: center;
+      width: 60%;
+      height: 460px;
+      background-color: #d7e3ff55;
+      box-shadow: 3px 3px 11px rgba(3, 3, 3, 0.771);
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .form-body {
+        gap: 0.4rem;
+        width: 90%;
+        height: 466px;
+    
+  }
+}
+  @media screen and (min-width: 2000px) {
+    .form-body {
+      gap: 0.4rem;
+      width: 30%;
+      height: 600px;
+    }
+    .title {
+      font-size: 68px;
+    }
+    .title2 {
+      font-size: 58px;
+    }
+  
+    .form__label {
+      font-size: 100px;
+    }
+  
+    .form__input {
+      font-size: 2.4rem;
+      padding: 5px;
+      margin: 5px;
+    }
+    .submit2 {
+      border: 2px solid rgb(0, 0, 0);
+      font-size: 2rem;
+      padding: 15px;
+    }
+  }
+
+.reactionCard-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.reactionCard-info{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
