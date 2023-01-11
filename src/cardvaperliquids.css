@@ -1,4 +1,8 @@
 /* CARDS STYLES */
+* {
+    max-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .filter-products-container {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +41,6 @@
 .filter-container {
         background-color: #0000009e;
         width: 100%;
-        margin-right: 1em;
         display: flex;
         min-height: 6rem;
     }
@@ -127,6 +130,13 @@ div {
     width: 98%;
 }
 
+.container-card{
+    max-width: 100%;
+
+}
+.container-card2{
+    max-width: 99%;
+}
 
 
 
