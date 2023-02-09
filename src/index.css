@@ -487,6 +487,7 @@ li {
 }
 .reactions{
   display: flex;
+  margin-top: 1rem;
 
 }
 
